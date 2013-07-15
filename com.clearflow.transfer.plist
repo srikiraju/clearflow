@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.clearflow.transfer.plist</string>
+    <key>StandardOutPath</key>
+    <string>/var/log/clearflowout.log</string>
+    <key>StandardErrorPath</key>
+    <string>/var/log/clearflowerr.log</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Users/srikanthraju/Code/clearflow/run.sh</string>
+    </array>
+    <key>StartInterval</key>
+    <integer>30</integer>
+</dict>
+</plist>
